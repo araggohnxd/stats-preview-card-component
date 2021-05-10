@@ -1,0 +1,17 @@
+.main-card {
+    background-color: hsl(244, 38%, 16%);
+    padding: 70px;
+    max-width: 446px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main-card .accent {
+    color: hsl(277, 64%, 61%);
+}
+
+.main-card .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}

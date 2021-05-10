@@ -1,0 +1,12 @@
+.main-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.main-title.-stat {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
