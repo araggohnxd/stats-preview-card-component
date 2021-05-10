@@ -1,13 +1,13 @@
 .main-section {
     max-width: 1440px;
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .main-section .filter {
+    display: flex;
     background-color: hsl(277, 55%, 51%);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .main-section .filter .image {
@@ -17,6 +17,12 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .main-section {
+        flex-direction: column-reverse;
+        margin-top: 0;
+        max-width: 500px;
+    }
 }

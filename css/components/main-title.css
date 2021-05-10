@@ -10,3 +10,9 @@
     font-size: 30px;
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 1023.98px) {
+    .main-title {
+        text-align: center;
+    }
+}

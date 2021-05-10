@@ -4,10 +4,17 @@
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.5;
+    max-width: 375px;
 }
 
 .main-description.-stat {
     font-family: 'Lexend Deca', serif;
     font-size: 13px;
     color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media screen and (max-width: 1023.98px) {
+    .main-description {
+        text-align: center;
+    }
 }

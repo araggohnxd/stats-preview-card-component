@@ -1,17 +1,35 @@
 .main-card {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(244, 38%, 16%);
     padding: 70px;
     max-width: 446px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
 }
 
 .main-card .accent {
     color: hsl(277, 64%, 61%);
 }
 
+.main-card .stat {
+    margin-bottom: 30px;
+}
+
 .main-card .wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .main-card {
+        justify-content: center;
+        align-items: center;
+        padding: 70px 25px;
+        max-width: 100%;
+    }
+
+    .main-card .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
