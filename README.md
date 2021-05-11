@@ -60,7 +60,7 @@ One of the new things I learned doing this challenge was how to monotone an imag
 };
 ```
 
-I also had my first contact with media queries and it's use to make wep pages responsive.
+I also had my first contact with media queries and it's use to make web pages responsive.
 
 ### Continued development
 
