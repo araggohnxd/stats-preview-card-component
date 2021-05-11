@@ -6,13 +6,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  <!-- - [Screenshot](#screenshot) -->
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  <!-- - [Useful resources](#useful-resources) -->
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -24,22 +24,16 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-<!-- ### Screenshot
+### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** -->
+![Desktop](https://github.com/araggohnxd/stats-preview-card-component/blob/master/images/desktop-screenshot.jpg?raw=true)
+![Mobile](https://github.com/araggohnxd/stats-preview-card-component/blob/master/images/mobile-screenshot.jpg?raw=true)
 
 ### Links
 
 - Live Site URL: [GitHub Pages](https://araggohnxd.github.io/stats-preview-card-component/) 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-card-component-using-flexbox-and-media-queries-_xWOUXXSM)
+
 
 ## My process
 
@@ -48,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
+- Media Queries
 
 ### What I learned
 
@@ -66,17 +60,16 @@ One of the new things I learned doing this challenge was how to monotone an imag
 };
 ```
 
+I also had my first contact with media queries and it's use to make wep pages responsive.
 
 ### Continued development
 
 This was my first contact with a responsive layout and I had a lot of fun working with it. I look forward to go through deeper learning about this subject.
 
-<!-- ### Useful resources
+### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** -->
+- [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/) - This article helped me to understand media queries and it's uses. Why it exists, how to structure it and when to use it properly.
+- [Monotone an Image with CSS](https://css-tricks.com/snippets/css/monotone-image-css/) - This article taught me how to monotone images with only CSS.
 
 ## Author
 
